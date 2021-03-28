@@ -1,0 +1,5 @@
+python-telegram-bot
+nekos.py
+requests
+Pillow
+pyyaml
