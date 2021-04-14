@@ -1,4 +1,4 @@
-[!Chitanda](https://telegra.ph/file/76714815887e852bb6247.jpg)
+![Chitanda](https://telegra.ph/file/76714815887e852bb6247.jpg)
 # ChitandaRobot
 A Telegram bot which can provide you loads of hentai images & GIFs for free, fetch Anime & Manga info, and at but not the least upload nhentai.net doujins to telegra.ph! Can be found on Telegram as [Eru Chitanda](t.me/ChitandaRobot).
 
