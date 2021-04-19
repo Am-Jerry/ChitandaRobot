@@ -11,7 +11,7 @@ A Telegram bot which can provide you loads of hentai images & GIFs for free, fet
 ![Stars](https://img.shields.io/github/stars/IAmKartoon/ChitandaRobot?style=for-the-badge&logo=appveyor)
 ![LICENSE](https://img.shields.io/github/license/IAmKartoon/ChitandaRobot?style=for-the-badge&logo=appveyor)
 
-*Credits*
-- Initiated & nHentai module by Me.
-- AniList support by [Jay Patel](github.com/JayPatel1314)
-- Some minor fixes by [Suraj](github.com/SurajRaj4542)
+# Credits
+- Initiated by Me.
+- AniList support by [Jay](github.com/JayPatel1314)
+- Some life saving tasks by [Suraj](github.com/SurajRaj4542)
