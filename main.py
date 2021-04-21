@@ -32,6 +32,7 @@ from telegram.ext import (
 from bot.start import start
 from bot.help import help, chelp
 from bot.nekos import *
+from bot.anime import *
 from bot.nekos_fun import asfile
 
 # load config
@@ -106,6 +107,10 @@ COMMANDS = [
         BotCommand('smug', 'Sends Random Smug GIFs.'),
         BotCommand('baka', 'Sends Random Baka Shout GIFs.'),
         BotCommand('dva', 'Sends Random D.VA source Images.'),
+        BotCommand('anime', 'Sends Information of anime.'),
+        BotCommand('manga', 'Sends Information of manga.'),
+        BotCommand('character', 'Sends Information of the character.'),
+
         
     ]
 
@@ -170,6 +175,9 @@ updater.dispatcher.add_handler(CommandHandler('ero', ero))
 updater.dispatcher.add_handler(CommandHandler('smug', smug))
 updater.dispatcher.add_handler(CommandHandler('baka', baka))
 updater.dispatcher.add_handler(CommandHandler('dva', dva))
+updater.dispatcher.add_handler(CommandHandler('anime', anime))
+updater.dispatcher.add_handler(CommandHandler('manga', manga))
+updater.dispatcher.add_handler(CommandHandler('character', character))
 
 
 updater.start_polling()
