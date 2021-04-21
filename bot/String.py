@@ -25,14 +25,14 @@ class String:
                      "My name is Erū Chitanda. I'm built using python3 & powerd by [NEKOS API.](https://nekos.life/)\n"
                      "I can supply you loads of anime wallpapers and hentai images for free!\n"
                      "Click the button below to get started with the list of possible commands.\n\n"
-                     "Made with ❤️ by [カルマ赤羽](https://t.me/MeKarToon) on python-telegram-bot.")
+                     "Made with ❤️ by [カルマ赤羽](https://t.me/IdioticAsHell) on python-telegram-bot.")
     
-    SUPPORT_MESSAGE = ("We have support group now, head over @ToonySupport in case you have any issues.\n"
+    SUPPORT_MESSAGE = ("We have support group now, head over @ToonyChat in case you have any issues.\n"
                        "Channel: @AmKarToon")
     
     SOURCE_MESSAGE = ("Here is the source: https://github.com/IAmKarToon/ChitandaRobot\n"
                       "[Erū Chitanda](https://github.com/IAmKarToon/ChitandaRobot/blob/main/LICENSE) is licensed under the **MIT License**\n\n"
-                      "Copyright (c) 2020 カルマ赤羽 (@MeKarToon)")
+                      "Copyright (c) 2020 カルマ赤羽 (@IdioticAsHell)")
     
     HELP_MESSAGE = ("This is a list of available commands you can try.\n\n"
                     "• Commands to get photos:\n"
@@ -87,4 +87,9 @@ class String:
                     "/dva: Sends Random D.VA source Images.\n\n"
                     "• Commands to get wallpapers:\n"
                     "/neko: Sends Random SFW Neko source Images.\n"
-                    "/wallpaper: Sends Random Wallpapers.")
+                    "/wallpaper: Sends Random Wallpapers."
+                    "• Anime Related Commands:\n"
+                    "/anime <anime>: returns information about the anime.\n"
+                    "/manga <manga>: returns information about the manga.\n"
+                    "/character <character>: returns information about the character.\n"
+                    "/airing: returns airing details of the anime.\n")
