@@ -110,6 +110,8 @@ COMMANDS = [
         BotCommand('anime', 'Sends Information of anime.'),
         BotCommand('manga', 'Sends Information of manga.'),
         BotCommand('character', 'Sends Information of the character.'),
+        BotCommand('airing', 'Sends Information of Airing/Ongoing Anime Eps.'),
+
 
         
     ]
@@ -178,6 +180,7 @@ updater.dispatcher.add_handler(CommandHandler('dva', dva))
 updater.dispatcher.add_handler(CommandHandler('anime', anime))
 updater.dispatcher.add_handler(CommandHandler('manga', manga))
 updater.dispatcher.add_handler(CommandHandler('character', character))
+updater.dispatcher.add_handler(CommandHandler('airing', airing))
 
 
 updater.start_polling()
